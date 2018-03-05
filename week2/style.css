@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: red;
+  color: white;
+}
+aside {
+  background-color: green;
+  color: red;
+  width: 40%
+}
+main {
+  background-color: blue;
+  color:yellow;
+}
+footer {
+  background-color: yellow;
+  color: black;
+}
+
+aside {
+  width: 40%;
+}
+main {
+  width: 60%;
+}
+
+aside, main {
+  float: left;
+  height: 500px;
+}
+header, aside, main, footer {
+  padding: 30px;
+  text-align: center;
+  font-size: 6em;
+}
+footer {
+  clear: both;
+}
